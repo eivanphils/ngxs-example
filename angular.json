@@ -28,7 +28,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/bulma/css/bulma.min.css"
             ],
             "scripts": []
           },
@@ -123,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ngxs-angular-example"
+    }
+  },
+  "defaultProject": "ngxs-angular-example",
+  "cli": {
+    "analytics": "8cdf8cd3-37d4-463b-95f4-734f546bf5a1"
+  }
 }
